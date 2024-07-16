@@ -47,7 +47,7 @@ body {
     color: #272D38;
     flex-wrap: wrap;
 
-    @media (max-width: 925px) {
+    @media (max-width: 1000px) {
         align-items: center;
         justify-content: center;
         text-align: center;
@@ -78,7 +78,7 @@ body {
     color: #272D38;
     flex-wrap: wrap;
 
-    @media (max-width: 925px) {
+    @media (max-width: 1000px) {
         align-items: center;
         justify-content: center;
         text-align: center;
@@ -94,7 +94,7 @@ body {
     color: #272D38;
     flex-wrap: wrap;
 
-    @media (max-width: 925px) {
+    @media (max-width: 1000px) {
         align-items: center;
         justify-content: center;
         text-align: center;
@@ -118,13 +118,25 @@ body {
     align-items: center;
     border-radius: 20px;
     background-color: #DEDCDB80;
-    margin-top: 140px;
     flex-direction: row-reverse;
+    max-width: 1250px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 140px;
 
-    @media (max-width: 925px) {
+    @media (max-width: 1000px) {
         align-items: center;
         justify-content: center;
         text-align: center;
+        flex-direction: column;
+    }
+}
+
+.wrap8 {
+    @media (max-width: 1000px) {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
     }
 }
 
@@ -142,8 +154,8 @@ body {
     }
 
     h1 {
-        font-size: 60px;
-        line-height: 60px;
+        font-size: 50px;
+        line-height: 50px;
     }
 }
 
@@ -153,22 +165,22 @@ body {
     }
 
     h1 {
-        font-size: 60px;
-        line-height: 60px;
+        font-size: 50px;
+        line-height: 50px;
     }
 }
 
 .text3 {
 
-    margin-left: 50px;
+    margin-left: 25px;
 
     p {
         padding: 25px 0;
     }
 
     h1 {
-        font-size: 60px;
-        line-height: 60px;
+        font-size: 50px;
+        line-height: 50px;
     }
 
     button {
@@ -179,6 +191,9 @@ body {
         border-radius: 5px;
     }
 
+    @media (max-width: 1000px) {
+        margin-top: 30px;
+    }
 }
 
 .imgs {
@@ -197,7 +212,7 @@ body {
 .card1 {
     border-radius: 20px;
     background-color: #DEDCDB80;
-    max-width: 325px;
+    max-width: 300px;
     width: 100%;
     text-align: center;
     height: 335px;
@@ -222,7 +237,7 @@ body {
 .card2 {
     border-radius: 20px;
     background-color: #DEDCDB80;
-    max-width: 325px;
+    max-width: 300px;
     width: 100%;
     text-align: center;
     height: 335px;
@@ -247,7 +262,7 @@ body {
 .card3 {
     border-radius: 20px;
     background-color: #DEDCDB80;
-    max-width: 325px;
+    max-width: 300px;
     width: 100%;
     text-align: center;
     height: 335px;
@@ -271,55 +286,61 @@ body {
 .cards {
     display: flex;
     justify-content: center;
-    gap: 35px;
+    gap: 25px;
+    flex-wrap: wrap;
 }
 
-.end1{
-    p{
+.end1 {
+    p {
         padding-top: 40px;
     }
-    h3{
+
+    h3 {
         padding-top: 105px;
     }
 }
 
-.end2{
-    p{
+.end2 {
+    p {
         padding-top: 24px;
         white-space: nowrap;
     }
-    h3{
+
+    h3 {
         padding-top: 105px;
-        
+
     }
 }
 
-.end3{
-    p{
+.end3 {
+    p {
         padding-top: 24px;
     }
-    h3{
+
+    h3 {
         padding-top: 105px;
     }
 }
 
-.end4{
-    p{
+.end4 {
+    p {
         padding-top: 24px;
     }
-    h3{
+
+    h3 {
         padding-top: 105px;
         white-space: nowrap;
     }
 }
 
-.wrap8{
+.wrap8 {
     display: flex;
     gap: 250px;
     justify-content: center;
 
 }
-.p{
+
+.p {
     text-align: center;
     margin-top: 110px;
     margin-bottom: 5px;
